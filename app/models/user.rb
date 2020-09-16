@@ -4,6 +4,7 @@ class User < ApplicationRecord
     validates :password, length: { in:6..16 }, presence: true
 
     has_many :posts
+    has_many :comments
 
     def new
         @user = User.new
