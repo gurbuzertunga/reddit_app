@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'comments/index'
   get 'posts/index'
   get 'users/index'
   get 'welcome/index'
@@ -6,5 +7,5 @@ Rails.application.routes.draw do
   resources :users
   resources :posts
   resources :comments
-  root 'posts#index'
+  root 'users#index'
 end
