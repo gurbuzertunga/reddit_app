@@ -44,7 +44,6 @@ class CommentsController < ApplicationController
 
     flash.notice = "Comment '#{@comment.body}' Updated!"
 
-
     redirect_to comments_path(@comment)
   end
 end

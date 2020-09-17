@@ -44,7 +44,6 @@ class UsersController < ApplicationController
 
     flash.notice = "User '#{@user.username}' Updated!"
 
-
     redirect_to users_path(@user)
   end
 end

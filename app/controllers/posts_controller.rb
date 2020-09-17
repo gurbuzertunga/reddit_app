@@ -44,7 +44,6 @@ class PostsController < ApplicationController
 
     flash.notice = "Post '#{@post.title}' Updated!"
 
-
     redirect_to posts_path(@post)
   end
 end

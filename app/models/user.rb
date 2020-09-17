@@ -1,12 +1,12 @@
 class User < ApplicationRecord
-    validates :username, uniqueness:true, length: { in:4..12 }, presence: true
-    validates :email, uniqueness:true, presence: true
-    validates :password, length: { in:6..16 }, presence: true
+  validates :username, uniqueness: true, length: { in: 4..12 }, presence: true
+  validates :email, uniqueness: true, presence: true
+  validates :password, length: { in: 6..16 }, presence: true
 
-    has_many :posts
-    has_many :comments
+  has_many :posts
+  has_many :comments
 
-    def new
-        @user = User.new
-    end
+  def new
+    @user = User.new
+  end
 end
