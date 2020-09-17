@@ -1,24 +1,36 @@
-# README
+# Project-MicroReddit
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is the project to learn about the database arrangement on Rails.
 
-Things you may want to cover:
+## Built With
 
-* Ruby version
+-   Ruby
+-   Rubocop
+-   Ubuntu
+-   Rails
 
-* System dependencies
+## Prerequisities
 
-* Configuration
+To get this project up and running locally, you must already have ruby and rails installed on your computer.
 
-* Database creation
+## Getting Started
 
-* Database initialization
+**Setup**
 
-* How to run the test suite
+- Clone this repository with ```git clone git@github.com:gurbuzertunga/reddit_app.git``` using your terminal or command line.<br>
+- Change to the project directory by entering ```cd reddit_app``` in the terminal<br>
+- Next run ```bundle install``` to install the necessary dependencies<br>
+- Run ```rails db:migrate``` to setup your local database.<br>
+- Finally run ```rails console``` to start the application.<br>
 
-* Services (job queues, cache servers, search engines, etc.)
+## Authors
 
-* Deployment instructions
+👤 **Gurbuz Ertunga**
 
-* ...
+-   Github: [@gurbuzertunga](https://github.com/gurbuzertunga)
+-   LinkedIn: [eypsrcnuygr](https://www.linkedin.com/in/gurbuz-ertunga-a607a2a5/)
+
+👤 **Sergio David Perdomo Rivera**
+
+-   Github: [@visva-dev](https://github.com/sddoe)
+-   LinkedIn: [Visvaldas Rapalis](https://www.linkedin.com/in/sergio-david-perdomo-rivera/)
