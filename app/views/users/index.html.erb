@@ -1,0 +1,11 @@
+<h1>Welcome to MicroReddit</h1>
+<ul id="Users">
+  <% @users.each do |user| %>
+    <li>
+      <%= link_to user.username, user_path(user) %>
+    </li>
+  <% end %>
+</ul>
+
+<%= link_to "Create a New User", new_user_path, class: "new_user" %>
+<%= link_to 'Back to Welcome Page', welcome_index_path%> <br>
